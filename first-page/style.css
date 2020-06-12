@@ -9,163 +9,65 @@ body {
     overflow: hidden;
 }
 
-header {
-    font-family: 'Roboto', sans-serif;
-    position: absolute;
-    /* box-shadow: 0px 3px 5px rgb(236, 184, 192); */
-    width: 1606px;
-    /* width: 100%; */
-    height: 50px;
-    left: 0px;
-    top: 0px;
-    display: flex;
-    align-items: center;
-    
-    margin-left: 120px;
-
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 16px
-
-}
-
-/* #header-first-image {
-    position: absolute;
-    margin-left: 18px;
-    width: 36px;
-    height: 33px;
-} */
-
-#second-item {
-    font-family: 'Roboto', sans-serif;
-    position: absolute;
-    margin-left: 300.3px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500 !important;
-    font-size: 14px;
-    line-height: 16px
-}
-
-#third-item {
-    font-family: 'Roboto', sans-serif;
-    position: absolute;
-    margin-left: 420.3px;
-}
-
-.box {
-    padding: 2px 3px;
-    padding-left: 4px;
-    background-color: #E25A76;
-    border-radius: 3px;
-    color: white;
-    font-weight: bold;
-    margin-left: 4px;
-}
-
-
-
-#fourth-item {
-    position: absolute;
-    margin-left: 543.3px;
-    margin-right: 302px;
-    padding: 7px 14px;
-    color: #E25A76;
-    font-weight: bold;
-
-    border: 1px solid rgba(226, 90, 118, 0.275108);
-    box-sizing: border-box;
-    border-radius: 4px;
-}
-
-.search-img {
-    position: absolute;
-    margin-left: 927.3px;
-    width: 14px;
-    height: 14.5px;
-    cursor: pointer;
-}
-
-#fifth-item {
-    position: absolute;
-    margin-left: 952.3px;
-}
-
-#sixth-item {
-    position: absolute;
-    margin-left: 1092.3px;
-    padding: 7px 16px;
-    border: 0.5px solid pink;
-    font-weight: bold;
-    background-color: white;
-    cursor: pointer;
-
-    background: #FFFFFF;
-    border: 1px solid #F5C6CF;
-    box-sizing: border-box;
-    border-radius: 4px;
-}
-
-.log-in-imgae {
-    position: absolute;
-    margin-left: 1227.5px;
-    width: 15px;
-    height: 15px;
-    background-color: yellow;
-}
-
-#seventh-item {
-    font-family: 'Roboto', sans-serif;
-    position: absolute;
-    margin-left: 1253.3px;
-    margin-right: 311px;
-}
-
-
-
 .main {
-    margin-top: 50px;
+    position: relative;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .small-main {
+    /* display: none; */
+    position: relative;
     width: 1060px;
     height: 536px;
-    margin: 204.82px 274px 189px 266px;
-    /* box-shadow: 0px 20px 30px rgb(236, 184, 192); */
     box-shadow: 0px 15px 22px rgba(121, 54, 68, 0.225628);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
 
     background-image: url('./images/7b4478fbc5fcb0a7dcd9392de03e0440b9536cc4.png');
 }
 
 .newspaper-with-coffee {
+    position: absolute;
     width: 434.18px;
     height: 413.87px;
+    right: 3px;
+    bottom: 1px;
+}
 
-    margin-right: 3px;
-    margin-bottom: 1px;
-    margin-top: 121.13px;
-    margin-left: 628.82px;
-    position: absolute;
+.newspaper-with-coffee img {
+    /* position: absolute; */
+    width: 434.18px;
+    height: 413.87px;
 }
 
 .face {
     position: absolute;
+    right: 316px;
+    bottom: 374px;
     width: 92.95px;
     height: 113px;
-    margin: 49px 316.05px 374px 651px;
+}
+
+.face img{
+    width: 92.95px;
+    height: 113px;
 }
 
 .money {
     position: absolute;
+    bottom: 129px;
+    right: 479px ;
     width: 197.5px;
     height: 147.5px;
-    margin: 49px 316.05px 374px 651px;
-    margin: 259.5px 479.1px 129px 383.4px;
+}
+
+.money img{
+    width: 197.5px;
+    height: 147.5px;
 }
 
 .start {
@@ -178,7 +80,9 @@ header {
     line-height: 23px;
     cursor: pointer;
 
-    margin: 439px 861px 41px 53px;
+    bottom: 41px;
+    right: 861px;
+    /* margin: 439px 861px 41px 53px; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -192,7 +96,9 @@ header {
     position: absolute;
     width: 510px;
     height: 164px;
-    margin: 68px 498px 304px 52px;
+    bottom: 304px;
+    right: 498px;
+    /* margin: 68px 498px 304px 52px; */
 }
 
 .test-Test {
@@ -203,7 +109,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* padding: 13.5px 7px; */
 
     background: #E25A76;
     border: 1px solid #E25A76;
@@ -212,6 +117,8 @@ header {
     color: white;
     font-size: 18px;
     line-height: 21px;
+    /* right: 499px;
+    bottom: 422px; */
     margin: 0.37px 0.58px 117.63px 444.12px;
 }
 
