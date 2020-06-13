@@ -18,15 +18,15 @@ body {
     align-items: center;
 }
 
-.small-main-1 a:link {
+.question1 a:link {
     color: black;
 }
 
-.small-main-1 a:visited{
+.question1 a:visited{
     color: black;
 }
 
-.small-main-1 {
+.question1 {
     display: none;
     position: relative;
     width: 1060px;

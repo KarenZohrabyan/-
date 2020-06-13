@@ -1,24 +1,6 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
 
-body {
-    background-color: aqua;
-    background-color: #FEEBEF;
-    overflow: hidden;
-}
-
-.main {
-    position: relative;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.small-main {
-    /* display: none; */
+.thr-3 {
+    display: none;
     position: relative;
     width: 1060px;
     height: 536px;
@@ -61,7 +43,7 @@ body {
     width: 308px;
     height: 50px;
 
-    top: 236px;
+    top: 278px;
     left: 283px;
 
     display: flex;
@@ -158,8 +140,6 @@ body {
 
 .again p{
     font-family: 'Roboto', sans-serif;
-
-    font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -168,16 +148,18 @@ body {
     color: #000000;
 }
 
+
 .photo {
     position: absolute;
-    width: 522.97px;
-    height: 436.67px;
-    right: -3px;
-    top: 70.86px;
-    transform: rotate(-8deg);
+    width: 405.57px;
+    height: 262.38px;
+    right: 10px;
+    top: 150.86px;
+    /* transform: matrix(-0.98, -0.19, -0.19, 0.98, 0, 0); */
+    transform: rotate(-154deg);
 }
 
 .photo img {
-    width: 522.97px;
-    height: 436.67px;
+    width: 405.57px;
+    height: 262.38px;
 }

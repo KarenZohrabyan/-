@@ -1,24 +1,6 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
 
-body {
-    background-color: aqua;
-    background-color: #FEEBEF;
-    overflow: hidden;
-}
-
-.main {
-    position: relative;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.small-main {
-    /* display: none; */
+.thr-1 {
+    display: none;
     position: relative;
     width: 1060px;
     height: 536px;

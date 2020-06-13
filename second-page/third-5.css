@@ -1,24 +1,6 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
 
-body {
-    background-color: aqua;
-    background-color: #FEEBEF;
-    overflow: hidden;
-}
-
-.main {
-    position: relative;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.small-main {
-    /* display: none; */
+.thr-5 {
+    display: none;
     position: relative;
     width: 1060px;
     height: 536px;
@@ -61,7 +43,8 @@ body {
     width: 308px;
     height: 50px;
 
-    top: 236px;
+    z-index: 1;
+    top: 278px;
     left: 283px;
 
     display: flex;
@@ -158,8 +141,6 @@ body {
 
 .again p{
     font-family: 'Roboto', sans-serif;
-
-    font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -168,16 +149,18 @@ body {
     color: #000000;
 }
 
+
 .photo {
     position: absolute;
-    width: 522.97px;
-    height: 436.67px;
-    right: -3px;
-    top: 70.86px;
-    transform: rotate(-8deg);
+    width: 592.23px;
+    height: 429.89px;
+    right: 5px;
+    top: 50.86px;
+    transform: rotate(-7deg);
 }
 
 .photo img {
-    width: 522.97px;
-    height: 436.67px;
+    width: 592.23px;
+    height: 429.89px;
+    
 }

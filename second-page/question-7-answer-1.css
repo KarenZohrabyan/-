@@ -1,0 +1,115 @@
+.question-7-smallmain1 {
+    display: none;
+    position: relative;
+    width: 1060px;
+    height: 536px;
+    box-shadow: 0px 15px 22px rgba(121, 54, 68, 0.225628);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+    background-image: url('./images/7b4478fbc5fcb0a7dcd9392de03e0440b9536cc4.png');
+}
+
+.h7-1 {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    /* font-weight: 500; */
+    font-size: 26px;
+    line-height: 36px;
+    width: 498px;
+    height: 108px;
+
+    right: 281px;
+    bottom: 366.32px;
+}
+
+.p7-1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: white;
+    border-radius: 2px
+}
+
+.p7-1-1 {
+    position: absolute;
+    width: 161px;
+    height: 50px;
+
+    right: 616px;
+    bottom: 285.32px;
+
+    font-weight: bold;
+    color: #43A457;
+    font-size: 16px;
+    line-height: 19px;
+
+    background: #FFFFFF;
+    border: 2px solid #43A457;
+    box-sizing: border-box;
+    border-radius: 2px
+}
+
+.text-7 {
+    position: absolute;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+
+    width: 472px;
+    height: 92px;
+    right: 305px;
+    bottom: 162.45px;
+}
+
+.text-7 a {
+    color: #00A0F6;
+}
+
+.for-bold {
+    font-weight: bold;
+}
+
+.p72 {
+    position: absolute;
+    width: 25px;
+    height: 19px;
+
+    right: 752.73px;
+    bottom: 489.98px;
+}
+
+.continue {
+    position: absolute;
+    width: 161px;
+    height: 25px;
+    bottom: 47.32px;
+    right: 620px;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.continue img {
+    margin-left: 10px;
+    width: 26px;
+    height: 20px;
+}
